@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "TABAC"
+version = "0.1.0"
+description = ""
+authors = ["anonymous <anonymous@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+giotto-tda = "^0.5.1"
+pandas = "^1.4.2"
+matplotlib = "^3.5.2"
+seaborn = "^0.11.2"
+tqdm = "^4.64.0"
+requests = "^2.31.0"
+sewar = "^0.4.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
