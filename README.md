@@ -1,4 +1,4 @@
-# Bayesian Uncertainty Quantification Meets Topology
+# Bayesian Computation Meets Topology
 
 This file is intended to explain how to run and reproduce the
 experiments shown in the paper. Moreover, a command line interface
